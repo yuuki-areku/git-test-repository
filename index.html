@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>arekuの習慣形成サイト</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#service">SERVICE</a></li>
+          <li><a href="#news">NEWS</a></li>
+          <li><a href="#price">PRICE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="top">
+        <div class="top_wrapper">
+          <h1>areku Mobile</h1>
+        </div>
+      </section>
+      <section id="service">
+        <h2 class="section_title">SERVICE</h2>
+        <div class="service_wrapper">
+          <div class="service_left">
+            <img src="img/service.png" alt="サービス画像">
+          </div>
+          <div class="service_right">
+            <h3>新春999円キャンペーン</h3>
+            <p>※以下条件のすべてを満たした場合に「新春999円キャンペーン」の適用となります。</p>
+            <hr>
+            <p>
+              個人契約のお客様であること<br>
+              シンプルS/M/L（以下「対象プラン」といいます。）にご加入いただくこと<br>
+              スーパーだれとでも定額（S）にお申込みいただくこと<br>
+              当社システムに登録された使用者年齢が以下のいずれかの時点で60歳以上であること<br>
+              ・対象プランにご契約いただいた時点<br>
+              ・スーパーだれとでも定額（S）へのお申込み時点<br>
+              ・機種変更、プラン変更などの情報変更のお申込み時点
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="news">
+        <h2 class="section_title">NEWS</h2>
+        <div class="news_wrapper">
+          <p>2021/1/1 リニューアルアップデートのお知らせ</p>
+          <p>2020/12/1 バグの修正についてのお知らせ</p>
+          <p>2020/8/1 アプリケーション（β版）のお知らせ</p>
+        </div>
+      </section>
+      <section id="price">
+        <h2 class="section_title">PRICE</h2>
+          <div class="price_wrapper">
+            <table>
+              <tr>
+                <th>ー</th>
+                <th>１０Gbパック</th>
+                <th>１５Gbパック</th>
+              </tr>
+              <tr>
+                <td>基本料金</td>
+                <td>９９９円/月</td>
+                <td>９９９円/月</td>
+              </tr>
+              <tr>
+                <td>データ料金</td>
+                <td>９００円/月</td>
+                <td>１５００円/月</td>
+              </tr>
+            </table>
+          </div>  
+      </section>
+      <section id="contact">
+        <h2 class="section_title">CONTACT</h2>
+        <form class="foem" method="post">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="user_name">
+          </div>
+          <div>
+            <label for="mail">E-mail</label>
+            <input type="email" id="mail" name="user_mail">
+          </div>
+          <div>
+            <label for="tel">Tell:</label>
+            <input type="tel" id="tel" name="user_tel">
+          </div>
+          <div>
+            <label for="msg">Message:</label>
+            <textarea name="user_message" id="msg"></textarea>
+          </div>
+          <div class="button_submit">
+            <button class="button" type="submit">送信</button>
+          </div>
+      </section>
+    </main>
+  </body>
+  <footer id="footer">
+    <div>
+      <small>@ 2021 Withcode All rights reserved.</small>
+    </div>
+  </footer>
+</html>

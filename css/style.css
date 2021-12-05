@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+body {
+  font-size: 18px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(211, 137, 137);
+  padding: 1.5% 5%;
+}
+
+nav ul li {
+  font-size: 1.2em;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#top {
+  height: 600px;
+  background: url(../img/top.png)no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.top_wrapper {
+  background-color: rgb(50, 50, 182);
+  padding: 1.5%;
+  margin-right: 20%;
+}
+
+.top_wrapper h1 {
+  font-size: 1.8em;
+  color: #fff;
+}
+
+#service {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.section_title {
+  font-size: 2.5px;
+  text-align: center;
+  color: #0d6c94;
+  margin-bottom: 5%;
+}
+
+.service_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service_left img {
+  width: 70%;
+  height: auto;
+}
+
+.service_right h3 {
+  font-size: 1.2em;
+  color: #16abeb;
+  padding: 2.5% 0;
+}
+
+.service_right p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #555;
+}
+
+#news {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.section_title {
+  font-size: 50px;
+}
+
+.news_wrapper {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+#price {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.price_wrapper table {
+  border: double #091ee0 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.price_wrapper table tr {
+  border: solid #091ee0 3px;
+  padding: 1%;
+}
+
+.price_wrapper table th {
+  border: solid #091ee0 3px;
+  padding: 1%;
+}
+
+.price_wrapper table td {
+  border: solid #091ee0 3px;
+  padding: 1%;
+}
+
+#contact {
+  background: rgb(241, 241, 241);
+}
+
+#contact h2 {
+  padding: 5% 0;
+  margin: 0;
+}
+
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  line-height: 2;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 60%;
+  margin-bottom: 2.5%;
+}
+
+input {
+  padding: 1%;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button_submit {
+  text-align: center;
+}
+
+.button {
+  padding: 1.5% 5%;
+  background-color: rgb(206, 62, 62);
+  margin: 5% 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+
+#footer {
+  background-color: rgb(43, 38, 38);
+  padding: 5%;
+  text-align: center;
+  color: #fff;
+}
